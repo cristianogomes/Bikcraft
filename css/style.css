@@ -10,6 +10,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn {
@@ -191,6 +192,10 @@ img {
   text-align: center;
 }
 
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
 .produtos_lista li h3 {
   font-weight: bold;
   font-size: 18px;
@@ -211,16 +216,11 @@ img {
 
 .produtos_lista li p {
   padding: 10px 20px 20px 20px;
-
 }
 
 .produtos_icone {
   background-color: #000;
   padding: 20px;
-}
-
-.produtos_icone img {
-  margin: 0 auto;
 }
 
 .call {
@@ -353,7 +353,7 @@ img {
 
 .footer_redes ul li {
   display: inline-block;
-  padding: 10px;
+  margin-right: 10px;
 }
 
 .footer_redes ul li a {
